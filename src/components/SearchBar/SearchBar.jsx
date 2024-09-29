@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import styles from './SearchBar.module.css';
+import { IoIosSearch } from "react-icons/io";
 
 const SearchBar = ({ onSubmit }) => {
   const [search, setSearch] = useState('');
@@ -20,7 +21,7 @@ const SearchBar = ({ onSubmit }) => {
           placeholder="Search images and photos"
         />
         <button type="submit" className={styles.button}>
-          Search
+          <IoIosSearch />
         </button>
       </form>
     </header>

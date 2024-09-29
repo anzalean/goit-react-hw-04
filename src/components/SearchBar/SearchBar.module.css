@@ -3,8 +3,13 @@
   background-color: #3f51b5;
   color: white;
   margin: 0;
+  width: 100%;
 }
-
+svg {
+  fill: black;
+  width: 20px;
+  height: 20px;
+}
 .form {
   display: flex;
   gap: 10px;
@@ -12,6 +17,7 @@
   padding: 5px;
   width: 400px;
   margin: 0 auto;
+  justify-content: space-between;
 }
 
 .input {
@@ -29,4 +35,5 @@
   border: none;
   padding: 5px;
   cursor: pointer;
+  margin-right: 0;
 }
